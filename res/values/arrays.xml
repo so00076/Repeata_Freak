@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="difficulty_list">
+        <item>@string/easy_label</item>
+        <item>@string/medium_label</item>
+        <item>@string/hard_label</item>
+        <item>@string/super_hard_label</item>
+    </string-array>
+    
+    <string-array name="difficulty_vals_list">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>6</item>
+    </string-array>
+    
+</resources>

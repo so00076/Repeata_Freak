@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">Repeata Freak</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="timed_challenge">30 Second Challenge</string>
+    <string name="instructions">Instructions</string>
+    <string name="key_features">Key Features</string>
+    
+    <!-- Content Descriptions -->
+    <string name="logo">Logo</string>
+    <string name="instructions_image1">An empty game board with blocks underneath</string>
+    <string name="instructions_image2">The completed puzzle, with all sections identical</string>
+    
+    <!-- Settings -->
+    <string name="settings_shortcut">s</string>
+    <string name="difficulty_label">Difficulty</string>
+    <string name="difficulty_summary">Determines the length of the puzzle</string>
+    <string name="easy_label">Easy</string>
+    <string name="medium_label">Medium</string>
+    <string name="hard_label">Hard</string>
+    <string name="super_hard_label">Super Hard</string>
+    <string name="manual_select_label">Manual Select</string>
+    <string name="manual_select_summary">This turns off drag-and-drop to let you select blocks manually. Tap to select a block, tap again where you want it to move.</string>
+    <string name="sfx_label">Sound Effects</string>
+    <string name="sfx_summary">Use sound effects during the game</string>
+    
+    <!-- Instructions -->
+    <string name="instructions_text1">To play Repeata Freak, you need to repeat a pattern across a board, so that each section is identical. \n\n<b>Here\'s a standard puzzle:</b></string>
+    <string name="instructions_text2">Drag blocks from the green area to the white board and vice versa, until each section is identical. \n\n<b>Here\'s that same puzzle solved:</b></string>
+    <string name="instructions_text3">Each section must be exactly the same - and here\'s a special tip just for you - the blocks you\'re moving around can overflow onto the next line. Whoah, insider secrects. I know, I know. \n\nIf you can\'t see all of the blocks in the storage area, try scrolling, that should do it. \n\nTo make it harder, go to the preferences on the main sceen and change the difficulty.</string>
+    <string name="instructions_text4">\nGood Luck! And remember: Eat, Sleep, Rave, <b>Repeat</b></string>
+    
+    <!-- Key Features -->
+    <string name="key_features_title">Some key things in the app: \n</string>
+    <string name="key_features_text">
+        &#9679; Rotating the screen will maintain the same puzzle. \n\n
+        &#9679; Puzzles are completely random (random section size, square colors and block size), meaning there are over 1,000,000 possible puzzles on \"Super Hard\". \n\n
+        &#9679; The storage area (green at bottom of screen) can be scrolled up and down. \n\n
+        &#9679; Blocks being moved on the board will adaptively fit to where they will \'drop\' when placed, including over multiple lines. \n\n
+        &#9679; There are sound effects for placing a block on the board, completing a puzzle, and filling the board incorrectly.
+        </string>
+    
+    <!-- Activities -->
+    <string name="title_activity_puzzle">Repeata Freak Puzzle</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="title_activity_key_features">Key Features</string>
+    
+    <!-- Gameplay -->
+    <string name="puzzle_solved">Puzzle Solved!</string>
+    <string name="new_puzzle">Tap for another one.</string>
+    <string name="time_up">Time Up</string>
+    <string name="you_scored">You scored: </string>
+    <string name="time">Time: </string>
+    <string name="score">Score: </string>
+
+</resources>

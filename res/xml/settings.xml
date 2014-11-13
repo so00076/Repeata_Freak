@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/difficulty_list"
+        android:entryValues="@array/difficulty_vals_list"
+        android:key="difficulty"
+        android:summary="@string/difficulty_summary"
+        android:title="@string/difficulty_label" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="sfx"
+        android:summary="@string/sfx_summary"
+        android:title="@string/sfx_label" />
+    
+   <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="manual_select"
+        android:summary="@string/manual_select_summary"
+        android:title="@string/manual_select_label" />
+
+	<CheckBoxPreference
+        android:defaultValue="false"
+        android:key="timed_mode"
+        android:enabled="false"
+        android:summary="@string/manual_select_summary"
+        android:title="test" />
+
+</PreferenceScreen>

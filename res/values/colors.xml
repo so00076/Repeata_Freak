@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="background">#FFF3F3F3</color>
+    
+    <color name="lineColor">#FF000000</color>
+    <color name="red">#FFFF0000</color>
+    <color name="green">#FF00FF00</color>
+    <color name="blue">#FF0000FF</color>
+    
+    <color name="selected">#FFFF9900</color>
+    
+    <color name="white">#FFFFFFFF</color>
+    <color name="storage">#FFAAFFBB</color>
+    
+</resources>

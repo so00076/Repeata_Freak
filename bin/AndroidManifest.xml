@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.surrey.so00076.repeater"
+    android:versionCode="2"
+    android:versionName="1.01" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="uk.singlekey.repeata_freak.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="uk.singlekey.repeata_freak.Prefs" >
+        </activity>
+        <activity
+            android:name="uk.singlekey.repeata_freak.Instructions"
+            android:label="@string/title_activity_instructions" >
+        </activity>
+        <activity
+            android:name="uk.singlekey.repeata_freak.KeyFeatures"
+            android:label="@string/title_activity_key_features" >
+        </activity>
+        <activity
+            android:name="uk.singlekey.repeata_freak.PuzzleActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_puzzle" >
+        </activity>
+    </application>
+
+</manifest>
